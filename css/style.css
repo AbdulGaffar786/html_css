@@ -1,0 +1,205 @@
+#whole
+{
+  width: 20%;
+  height: 400px;
+  margin: 13% auto;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+/* ----------------------------------------------------------------------------- */
+#upper
+{
+  background-color: #3498DB;
+  width: 100%;
+  height: 43px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+#upper_left
+{
+   width: 33%;
+   height: 43px;
+   background-color: #3498DB;
+}
+#upper_logo
+{
+  margin-top: 7%;
+  margin-right: 60%;
+}
+#upper_middle
+{
+  width: 33%;
+  height: 43px;
+  background-color: #3498DB;
+}
+#upper_font
+{
+margin: 7% auto;
+color: #FDFEFE;
+}
+#upper_right
+{
+  width: 34%;
+  height: 43px;
+  background-color: #3498DB;
+}
+#upper_button
+{
+  margin-top: 7%;
+  margin-left: 58%;
+  font-size: 25px;
+  color: #FDFEFE;
+  font-size: 20px;
+  background-color: #3498DB;
+  border: 1px solid #3498DB;
+}
+/* ----------------------------------------------------------------------------- */
+#middle
+{
+  width: 100%;
+  margin: 1% auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+#email
+{
+  width: 93%;
+  height: 25px;
+  margin: 1% auto;
+}
+#password
+{
+  width: 93%;
+  height: 25px;
+  margin: 1% auto;
+}
+.middle_button
+{
+  width: 93%;
+  height: 25px;
+  margin: 2% auto;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #5DADE2;
+  color: white;
+  border: 1px solid #3498DB;
+}
+.forget_password
+{
+  width: 50%;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #FDFEFE;
+  color: black;
+  border: 1px solid #FDFEFE;
+  text-align: left;
+}
+.Register
+{
+  width: 47%;
+  height: 25px;
+  border-radius: 5px;
+  text-align: right;
+  background-color: #FDFEFE;
+  color: black;
+  border: 1px solid #FDFEFE;
+}
+#middle_or
+{
+  margin: 3% auto;
+}
+/* ----------------------------------------------------------------------------- */
+#lower
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1% auto;
+}
+.button1
+{
+  width: 93%;
+  height: 25px;
+  margin: auto;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1B4F72;
+  color: white;
+  border: 1px solid #1B4F72;
+}
+.button2
+{
+  width: 93%;
+  height: 25px;
+  margin: 1% auto;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #CB4335;
+  color: white;
+  border: 1px solid #CB4335;
+}
+.button3
+{
+  width: 93%;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  background-color: #F1C40F;
+  color: white;
+  border: 1px solid #F1C40F;
+}
+/* ----------------------------------------------------------------------------- */
+@media only screen and (min-width:1px) and (max-width:572px)
+{
+  #whole
+  {
+    width: 100%;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+    display: flex;
+    flex-direction: row;
+  }
+}
+  /* ----------------------------------------------------------------------------- */
+  @media only screen and (min-width:573px) and (max-width:1024px)
+  {
+    #whole
+    {
+      width: 100%;
+      height: 500px;
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+
+      display: flex;
+      flex-direction: row;
+    }
+    #upper_logo
+    {
+      margin-top: 4%;
+      margin-right: 79%;
+    }
+    #upper_font
+    {
+    margin: 4% auto;
+    color: #FDFEFE;
+    }
+    #upper_button
+    {
+      margin-top: 3%;
+      margin-left: 79%;
+    }
+    .forget_password
+    {
+      width: 40%;
+      margin: auto 4%;
+    }
+  }
+    /* ----------------------------------------------------------------------------- */
